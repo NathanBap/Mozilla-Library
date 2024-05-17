@@ -1,0 +1,67 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-nav li {
+  text-indent: 45px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background-image: url('../images/library.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+  font-family: "Trebuchet MS", sans-serif;
+  /* font-family: "Gill Sans", sans-serif; */
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
+  z-index: 0;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Apply the black filter */
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+.col-sm-2 {
+  border-right: 1px solid white;
+  padding-right: 0;
+  padding-left: 0px;
+  font-size: large;
+}
+.col-sm-10 {
+  padding-left: 50px;
+}
+.container-fluid, .row {
+  height: 100%;
+}
+a, a:hover {
+  color: rgb(0, 234, 255);
+}
+hr {
+  border-color: white;
+}
+pre {
+  color: white;
+}
